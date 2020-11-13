@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class RestaurantApplication {
     //TODO: 改微信后台的服务器，以使真机连接到服务器上
     //TODO: 询问是否需要真机使用。
+    //this is Linux Version.
     public static void main(String[] args) {
         SpringApplication.run(RestaurantApplication.class, args);
     }
